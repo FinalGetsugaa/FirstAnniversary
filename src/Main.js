@@ -11,7 +11,7 @@ class Main extends Component {
     componentDidMount() {
         this.print();
         setInterval(() => {
-            this.time(2020, 2, 8) // 你们的纪念日
+            this.time(2020, 12, 30) // 你们的纪念日
         }, 1000
         )
         var audio = document.getElementById("audio");
